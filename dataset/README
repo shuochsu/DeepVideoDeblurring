@@ -1,0 +1,1 @@
+Download and unzip test videos to dataset, from http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/DeepVideoDeblurring_Dataset.zip, or place your own test video frames under dataset/qualitative_datasets/[video_file_name]/input.
