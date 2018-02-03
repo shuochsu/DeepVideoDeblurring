@@ -1,5 +1,5 @@
-## Deep Video Deblurring
-This is the demo code for [Deep Video Deblurring](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/). Given a stack of pre-aligned input frames, our network predicts a sharper central image. 
+## Deep Video Deblurring for Hand-held Cameras
+This is the demo code for [Deep Video Deblurring for Hand-held Cameras](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/). Given a stack of pre-aligned input frames, our network predicts a sharper central image. 
 
 ### Prepare data
 - Download and unzip test videos to `dataset`, from this [link](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/DeepVideoDeblurring_Dataset.zip), or place your own test video frames under `dataset/qualitative_datasets/[video_file_name]/input`.
@@ -28,10 +28,11 @@ Alternatively, you can download the pre-aligned qualitative videos from [here](h
 ### Citation
 If you find this code useful for your research, please cite:
 ```
-@article{su2016deep,
-  title={Deep Video Deblurring},
+@inproceedings{su2017deep,
+  title={Deep Video Deblurring for Hand-held Cameras},
   author={Su, Shuochen and Delbracio, Mauricio and Wang, Jue and Sapiro, Guillermo and Heidrich, Wolfgang and Wang, Oliver},
-  journal={arXiv preprint arXiv:1611.08387},
-  year={2016}
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1279--1288},
+  year={2017}
 }
 ```
