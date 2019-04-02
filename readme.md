@@ -25,6 +25,9 @@ Alternatively, you can download the pre-aligned qualitative videos from [here](h
 - Run script: `sh run_pred.sh`
 - Results will be saved to `outImg`. 
 
+### FAQ
+- split of the training/test sets: https://github.com/shuochsu/DeepVideoDeblurring/issues/2#issuecomment-312954167
+
 ### Citation
 If you find this code useful for your research, please cite:
 ```
